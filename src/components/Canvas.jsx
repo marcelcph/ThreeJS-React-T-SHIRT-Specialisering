@@ -29,7 +29,7 @@ const Canvas = () => {
     loader.load('./Mushnub_Evolved.gltf', function (gltf) {
       const model = gltf.scene;
       scene.add(gltf.scene);
-      // console.log(gltf.scene);
+      console.log(gltf.scene);
       model.getObjectByName('Cube035').material.color.setHex(valgteFarve1);
       model.getObjectByName('Cube035_1').material.color.setHex(valgteFarve2);
     }, undefined, function (error) {
